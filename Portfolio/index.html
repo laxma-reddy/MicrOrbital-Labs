@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+<head>
+<title>Laxma's Portfolio | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="portofolio, web development, internship, freelancer, responsive web" />
+<!-- css -->
+<!-- font-awesome icons -->
+<!--link rel="stylesheet" href="css/font-awesome.min.css" /-->
+<script src="https://use.fontawesome.com/a86eba96a4.js"></script>
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+<!-- //font-awesome icons -->
+<link href="//fonts.googleapis.com/css?family=Lato:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link rel="stylesheet" href="css/style2.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style1.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+<!-- Default-JavaScript-File -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- //Default-JavaScript-File -->
+
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		if( $('.cd-stretchy-nav').length > 0 ) {
+			var stretchyNavs = $('.cd-stretchy-nav');
+			
+			stretchyNavs.each(function(){
+				var stretchyNav = $(this),
+					stretchyNavTrigger = stretchyNav.find('.cd-nav-trigger');
+				
+				stretchyNavTrigger.on('click', function(event){
+					event.preventDefault();
+					stretchyNav.toggleClass('nav-is-visible');
+				});
+			});
+	
+			$(document).on('click', function(event){
+				( !$(event.target).is('.cd-nav-trigger') && !$(event.target).is('.cd-nav-trigger span') ) && stretchyNavs.removeClass('nav-is-visible');
+			});
+		}
+	});
+	</script>
+
+</head>
+<body>
+<!-- banner -->
+	<div id="home" class="w3-banner-top">
+	<div class="agileinfo-dot">
+		<div class="w3layouts_menu">
+			<nav class="cd-stretchy-nav edit-content">
+				<a class="cd-nav-trigger" href="#0"> Menu <span aria-hidden="true"></span> </a>
+				<ul>
+					<li><a href="#home" class="scroll"><span>Home</span></a></li>
+					<li><a href="#education" class="scroll"><span>Education</span></a></li>
+					<li><a href="#skills" class="scroll"><span>Skills</span></a></li> 
+					<li><a href="#contact" class="scroll"><span>Contact</span></a></li>
+				</ul> 
+				<span aria-hidden="true" class="stretchy-nav-bg"></span>
+			</nav> 
+		</div>
+
+	
+		<div class="banner-info text-center">
+			
+			<h1 id="banner-main-text">Hello, I'm Laxma</h1>
+			<div id="banner-border" class="border"></div>
+			<h2 id="banner-sub-text">A 
+				<span
+					class="txt-rotate"
+					data-period="2000"
+					data-rotate='[ "Lifelong Learner.", "Web Developer.", "Passionate Programmer.", "Full-Stack Developer"]'>
+				</span>
+			</h2>
+			<div class="flex-container wrap" id="social-media">
+					<a target="_blank" href="https://www.linkedin.com/in/laxmareddy-gannu-476822249/">
+					  <i class="fa fa-linkedin"></i>
+					</a>
+					<a target="_blank" href="mailto:gannulaxmareddy@gmail.com">
+					  <i class="fa fa-google"></i>
+					</a>
+					<a target="_blank" href="https://github.com/laxma-reddy">
+					  <i class="fa fa-github"></i>
+					</a>
+			</div><!--Social Media-->
+		
+		<div class="clearfix"></div>
+	</div>
+
+		</div>
+		<div class="thim-click-to-bottom">
+				<a href="#education" class="scroll">
+					<i class="fa  fa-chevron-down"></i>
+				</a>
+			</div>
+
+	</div>
+<!-- banner -->
+
+</div>
+
+<div id="education" class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>2024-Now</p><span>Ongoing</span>
+				<img src="images/arrow_education.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>BACHELOR DEGREE OF <br>COMPUTER SCIENCE ENGINEERING</h3>
+						<h4>CMR Institute Of Technology</h4>
+					</div>
+					<div class="edu-grid-info">
+						<h5>Currently in <strong>4th Year 1st Semester</strong></h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!-- skills -->
+<div class="skills" id="skills">
+	<div class="container">
+		<div class="title-w3ls">
+			<h4>My Skills</h4>
+			<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		</div>
+		<div id="skills-icons" class="flex-container wrap text-center">
+			<div>
+					<i class="devicon-html5-plain-wordmark"></i>
+					<p>HTML5</p>
+			</div>
+			<div>
+					<i class="devicon-css3-plain-wordmark"></i>
+					<p>CSS3</p>
+			</div>
+			<div>
+					<i class="devicon-bootstrap-plain"></i>
+					<p>Bootstrap</p>
+			</div>
+			<div>
+					<i class="devicon-javascript-plain"></i>
+					<p>Javascript</p>
+			</div>
+			<div>
+					<i class="devicon-jquery-plain"></i>
+					<p>jQuery</p>
+			</div>
+			<div>
+					<i class="devicon-mongodb-plain"></i>
+					<p>MongoDB</p>
+			</div>
+			<div>
+				<i class="devicon-react-original"></i>
+				<p>React.js</p>
+			</div>
+			<div>
+					<i class="devicon-nodejs-plain-wordmark"></i>
+					<p>Node.js</p>
+			</div>
+			<div>
+					<i class="devicon-express-original-wordmark"></i>
+					<p>Express.js</p>
+			</div>
+			<div>
+					<i class="devicon-git-plain"></i>
+					<p>Git</p>
+			</div>	
+			<div>
+					<i class="devicon-java-plain"></i>
+					<p>Java</p>
+			</div>
+			<div>
+					<i class="devicon-photoshop-line"></i>
+					<p>Photoshop</p>
+			</div>
+			
+		</div>
+
+		<div class="skills-bar">
+			<div class="col-md-6 w3-agile-skills-grid">
+			<section class='bar'>
+				<section class='wrap'>
+					<div class='wrap_right'>
+					  <div class='bar_group'>
+						<div class='bar_group__bar thin' label='HTMl5/CSS3' show_values='true' tooltip='true' value='100'></div>
+						<div class='bar_group__bar thin' label='Bootstrap' show_values='true' tooltip='true' value='80'></div>
+						<div class='bar_group__bar thin' label='Javascript' show_values='true' tooltip='true' value='80'></div>
+						<div class='bar_group__bar thin' label='Jquery' show_values='true' tooltip='true' value='80'></div>
+						<div class='bar_group__bar thin' label='Java' show_values='true' tooltip='true' value='60'></div>
+						
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</section>
+			</section>
+			</div>
+			<div class="clearfix"></div>
+		</div-->
+	</div>
+</div>
+
+
+<script src="js/jquery.filterizr.js"></script>
+    
+<!-- Kick off Filterizr -->
+<script type="text/javascript">
+    $(function() {
+        //Initialize filterizr with default options
+        $('.filtr-container').filterizr();
+    });
+</script>
+
+<!-- footer -->
+	<div id="contact" class="w3l_footer">
+		<div class="container">
+			
+			<div class="w3ls_footer_grids">
+				
+				<div class="w3ls_footer_grid">
+					<div class="col-md-4 w3ls_footer_grid_left">
+						<a target="_blank" href="https://www.linkedin.com/in/laxmareddy-gannu-476822249/">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Linkedin</h4>
+							<p>Laxma Reddy</p>
+						</div>
+						<div class="clearfix"> </div>
+						</a>
+					</div>
+					<div class="col-md-4 w3ls_footer_grid_left">
+						<a target="_blank" href="mailto:gannulaxmareddy@gmail.com">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Email</h4>
+							<p>gannulaxmareddy@gmail.com</p>
+						</div>
+						<div class="clearfix"> </div>
+						</a>
+					</div>
+					<div class="col-md-4 w3ls_footer_grid_left">
+						<a target="_blank" href="https://github.com/laxma-reddy">
+						<div class="w3ls_footer_grid_leftl">
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</div>
+						<div class="w3ls_footer_grid_leftr">
+							<h4>Github</h4>
+							<p>Laxma-Reddy</p>
+						</div>
+						<div class="clearfix"> </div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //footer -->
+<script src="js/bars.js"></script>
+<!-- start-smoth-scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+<!-- text-effect -->
+		<script type="text/javascript" src="js/jquery.transit.js"></script> 
+		<script type="text/javascript" src="js/jquery.textFx.js"></script> 
+		<script type="text/javascript">
+			$(document).ready(function() {
+					$('.test').textFx({
+						type: 'fadeIn',
+						iChar: 100,
+						iAnim: 1000
+					});
+			});
+		</script>
+<!-- //text-effect -->
+<!-- menu-js --> 	
+	<script src="js/modernizr.js"></script>	
+	<script src="js/menu.js"></script>
+<!-- //menu-js --> 	
+
+<script type="text/javascript" src="js/move-top.js"></script>
+
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+</script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+<script src="./js/scrollReveal.js"></script>	
+<script src="./js/typing.js"></script>
+
+
+
+
+
+
+</body>
+</html>

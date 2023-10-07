@@ -1,0 +1,100 @@
+body {
+    color:white;
+}
+
+#banner-main-text {
+    color:rgba(255, 255, 255);
+    font-size:0.8em;
+}
+
+#banner-sub-text {
+    font-size:0.4em;
+    color:rgba(255, 255, 255);
+    margin-bottom:10px;
+}
+#banner-border {
+    margin-top:10px;
+    
+    margin-bottom:10px;
+}
+
+#banner-content {
+    
+}
+
+.modal-btn {
+    background-color: #01bcfa;
+    color:white;
+    border:1px solid #01bcfa;
+    font-size: 2em;
+}
+.modal-btn:hover{
+    background-color: transparent;
+    color:#01bcfa;
+    
+}
+
+.modal .close {
+    font-size:3em;
+}
+/*
+.border {
+    background: #52edc7;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1px;
+}
+@media (max-width:768px){
+    .border {
+        width: 80%;
+    }
+}*/
+.flex-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.flex-column{
+    flex-direction:column;
+}
+.wrap {
+    flex-wrap:wrap;
+}
+#social-media i,#social-media a:link {
+  font-size:0.8em;
+  margin:0.2em;
+  color:#86ffe1;
+}
+
+#social-media i:hover {
+  color: white;
+}
+
+.flex{
+    display:flex;
+}
+
+#skills-icons i{
+    font-size: 6em;
+    margin:20px;
+}
+
+#skills-icons p {
+    font-size:1.5em;
+}
+
+#skills-icons {
+    margin:10px;
+    color:white;
+}
+
+#skills-icons > div > *{
+    color:white;
+    transition:color 1s;
+}
+
+#skills-icons > div > *:hover {
+    color:black;
+    transition:color 1s;
+}
+
